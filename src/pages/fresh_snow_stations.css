@@ -1,0 +1,200 @@
+.freshSnowStations {
+    overflow: hidden;
+}
+
+.stationCard {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 30px;
+    width: calc(100% - 50px);
+    margin: auto;
+    padding: 5px 15px 65px 15px;
+    position: relative;
+}
+
+.stationTitle {
+    text-align: center;
+    padding: 0 30px;
+}
+
+.customStation {
+    margin: 0 10px 20px 10px;
+}
+.stationTimeseries h5 {
+    margin-bottom: 0;
+}
+
+.stationButton {
+    color: whitesmoke;
+    background-color: #1a1e24;
+    padding: 10px 15px 10px 15px;
+    width: fit-content;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.left {
+    left: 10px;
+    text-align: left;
+}
+
+.right {
+    right: 10px;
+    text-align: right;
+}
+
+.stationIndicators {
+    bottom: 0;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    height: fit-content;
+}
+
+.stationIndicator {
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.bigCircle {
+    background-color: lightgray;
+    height: 20px;
+    width: 20px;
+}
+
+.smallCircle {
+    background-color: lightgray;
+    height: 15px;
+    width: 15px;
+    font-size: small;
+}
+
+.topButton {
+    position: absolute;
+    top: 15px;
+    color: #1a1e24;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.removeButton {
+    right: 20px;
+}
+
+.infoButton {
+    left: 20px;
+}
+
+.customSearch {
+    margin: auto;
+    margin-top: 10px;
+    color: #1a1e24;
+}
+
+.customSearch > * {
+    margin: 0 10px;
+}
+
+.searchBar {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid #1a1e24;
+    color: #1a1e24;
+    width: calc(100% - 145px);
+    position: absolute;
+    left: 45px;
+    top: 20px;
+}
+
+.searchControl {
+    font-size: x-large;
+    color: #1a1e24;
+    border: 0;
+    background-color: transparent;
+    position: absolute;
+}
+
+.searchClear {
+    right: 6px;
+    top: 16px;
+}
+
+.searchToggle {
+    right: 32px;
+    top: 16px;
+    padding: 2px;
+    padding-bottom: 0;
+    border-radius: 15px;
+    height: 28px;
+}
+
+.searchToggleOn {
+    background-color: aqua;
+}
+
+.searchToggleOff {
+    background-color: gray;
+}
+
+
+.searchToggleOn > * {
+    animation: slideRight 0.2s forwards;
+}
+
+.searchToggleOff > * {
+    animation: slideLeft 0.2s forwards;
+    
+}
+
+@keyframes slideLeft{
+    from {
+        margin-left: 15px;
+        margin-right: 0px;
+    }
+    to {
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+}
+
+@keyframes slideRight{
+    from {
+        margin-left: 0px;
+        margin-right: 15px;
+    }
+    to {
+        margin-left: 15px;
+        margin-right: 0px;
+    }
+}
+
+.searchSubmit {
+    font-size: 60px;
+    color: #1a1e24;
+    border: 0;
+    background-color: transparent;
+    margin-top: 25px;
+}
+
+.customMessage {
+    font-size: large;
+    margin-top: 60px;
+}
+
+.clearCookie {
+    border: 0;
+    background-color: transparent;
+    font-size: large;
+    border: 2px solid #1a1e24;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.infoCard {
+    margin: 0 10px; 
+    margin-top: 30px;
+    padding: 20px;
+    width: calc(100% - 60px);
+}

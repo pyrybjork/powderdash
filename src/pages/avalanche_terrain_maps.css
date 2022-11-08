@@ -1,0 +1,5 @@
+.map_image {
+    width: 98%;
+    max-width: calc(100vh);
+    border-radius: 30px;
+}
