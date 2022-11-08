@@ -2,5 +2,6 @@
 
 React + typecsript nettisivu lumitilanteen tarkkailua varten.
 
-sivulla on myös lumivyörymaastokarttoja.
+Sivulla on myös lumivyörymaastokarttoja.
 
+`src/components/fmiRequests.ts` sisältää minun kötöstyksen ilmatieteenlaitoksen wfs-rajapinnan lukemiseen.
